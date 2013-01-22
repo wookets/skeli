@@ -17,7 +17,7 @@ describe 'skeli', ->
 #         rimraf.sync path
 
     it 'creates a folder', (done) ->
-      skeli.create()
+      skeli.createProject()
       done()
 #       new Skeleton defaultArgs.clone(), ->
 #         fs.existsSync(path).should.equal true
