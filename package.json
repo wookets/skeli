@@ -1,0 +1,35 @@
+{
+  "name": "skeli",
+  "description": "An express angular mongo framework kinda generator thingy.",
+  "keywords": ["skeli", "express", "structure", "generator", "angular", "mongo"],
+  "author": "Wookets",
+  "version": "0.1.0-pre",
+  "licenses":     [{
+    "type":       "MIT",
+    "url":        "https://raw.github.com/jashkenas/coffee-script/master/LICENSE"
+  }],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/wookets/skeli.git"
+  },
+  "engines": {
+    "node": ">=0.8.0"
+  },
+  "directories" : {
+    "lib" : "./lib"
+  },
+  "main" : "./lib/skeli",
+  "bin": { "skeleton": "./bin/skeli" },
+  "dependencies": {
+    "coffee-script": "1.4.x",
+    "mkdirp": "0.3.x",
+    "colors": "0.6.x"
+  },
+  "devDependencies": {
+    "mocha": "1.6.x",
+    "rimraf": "2.0.x"
+  },
+  "scripts": {
+    "test": "cake test"
+  }
+}
